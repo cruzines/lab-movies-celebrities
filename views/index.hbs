@@ -1,2 +1,8 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
+
+{{#each celebrities}}
+    <a href="/celebrity/{{this.celebrities}}">
+         <p>{{this.name}}</p>
+    </a>
+{{/each}}
